@@ -1,5 +1,7 @@
-(defproject bilus/clj-commons-exec "1.1.0"
+(defproject bilus/clj-commons-exec "1.4.0"
   :description "Apache Commons Exec wrapper for Clojure"
-  :dependencies [[org.clojure/clojure "1.3.0"]
-                 [org.apache.commons/commons-exec "1.2"]]
+  :license {:name "MIT License"
+            :url "https://choosealicense.com/licenses/mit"}
+  :dependencies [[org.clojure/clojure "1.11.1"]
+                 [org.apache.commons/commons-exec "1.4.0"]]
   :warn-on-reflection true)
